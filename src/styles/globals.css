@@ -1,0 +1,36 @@
+body {
+  @apply bg-vn1 text-vn12;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(var(--vn-2) / 0.5);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--vn-5));
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--vn-8));
+}
+
+::-moz-selection {
+  @apply bg-vi9 text-white;
+}
+
+::selection {
+  @apply bg-vi9 text-white;
+}
+
+.lucide {
+  @apply w5 h5;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
